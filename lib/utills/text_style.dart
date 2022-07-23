@@ -7,25 +7,48 @@ class TextStyles{
     fontSize: 26,
     fontWeight: FontWeight.w800,
     color: Colors.white.withOpacity(0.8),
+    fontFamily: 'Ubuntu'
   );
   static final TextStyle tageLineStyle = TextStyle(
     fontSize: 12,
     fontWeight: FontWeight.w800,
-    color: Colors.white
+    color: Colors.white,
+    fontFamily: 'Ubuntu'
     );
      static final TextStyle bigHeadingTextStyle = TextStyle(
     fontSize: 50,
-    fontWeight: FontWeight.w900,
-    color: Colors.white
+    fontWeight: FontWeight.bold,
+    color: Colors.white,
+    fontFamily: 'Ubuntu'
     );
     static final TextStyle bodyTextStyle = TextStyle(
     fontSize: 14,
     fontWeight: FontWeight.w400,
-    color: Colors.white
+    color: Colors.white,
+    fontFamily: 'Ubuntu'
     );
    static final TextStyle enjoyTextStyle = TextStyle(
     fontSize: 18,
     fontWeight: FontWeight.w900,
-    color: Colors.white
+    color: Colors.white,
+    fontFamily: 'Ubuntu'
+    );
+    static final TextStyle headingText = TextStyle(
+    fontSize: 22,
+    fontWeight: FontWeight.w800,
+    color: Colors.white,
+    fontFamily: 'Ubuntu'
+    );
+    static final TextStyle subscriptionAmountTextStyle = TextStyle(
+    fontSize: 26,
+    fontWeight: FontWeight.w600,
+    color: Colors.white,
+    fontFamily: 'Ubuntu'
+    );
+   static final TextStyle subscriptionTitleTextStyle = TextStyle(
+    fontSize: 20,
+    fontWeight: FontWeight.w800,
+    color: Colors.white,
+    fontFamily: 'Ubuntu'
     );
 }
