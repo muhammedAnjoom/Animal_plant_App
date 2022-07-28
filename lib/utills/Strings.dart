@@ -6,6 +6,7 @@ class Strings {
   static const String READY_TO_WATCH_DESC =
       "A plant is a global leader in real life entertainment.serving a passionate audience of superfans around the world with content that inspires. infroms and entertains.";
   static const START_ENJOYING ="Start Enjoying";
+  static const LAST_ENJOYING ="Last Step Enjoying";
   static const choosPlan = 'Choose a Plan';
   static const weekEvent = 'week subscription';
   static const oneWeekEvent = '1 Month subscription';

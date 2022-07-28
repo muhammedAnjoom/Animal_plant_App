@@ -1,6 +1,8 @@
 
 import 'package:aninal_plant/common/custom_appBar.dart';
+import 'package:aninal_plant/common/neivigation_button.dart';
 import 'package:aninal_plant/common/subscription_container.dart';
+import 'package:aninal_plant/main.dart';
 import 'package:aninal_plant/utills/Strings.dart';
 import 'package:aninal_plant/utills/text_style.dart';
 import 'package:flutter/material.dart';
@@ -50,7 +52,23 @@ class ScreenChoos extends StatelessWidget {
                    imagePath: 'assets/monthly.jpg',
                  )
               ],
-            )
+            ),
+            Positioned(
+              bottom: 20,
+              right: 0,
+              top: 0,
+              left: 16,
+              child: Row(
+                crossAxisAlignment: CrossAxisAlignment.end,
+                children: [
+                   Text(
+                     Strings.LAST_ENJOYING,
+                     style: TextStyles.enjoyTextStyle,
+                   ),
+                ],
+              )
+              ),
+               NeivigtionButton(path: SCREEN_LAND,)
           ],
         ),
       ),
