@@ -20,7 +20,9 @@ class ScreenChoos extends StatelessWidget {
             Column(
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
-                 const CustomAppBar(),
+                 const CustomAppBar(
+                   opacity: 0.8,
+                 ),
                  Padding(
                    padding: const EdgeInsets.only(
                      top: 16,
@@ -68,7 +70,7 @@ class ScreenChoos extends StatelessWidget {
                 ],
               )
               ),
-               NeivigtionButton(path: SCREEN_LAND,)
+               NeivigtionButton(path: SCREEN_DASH,)
           ],
         ),
       ),

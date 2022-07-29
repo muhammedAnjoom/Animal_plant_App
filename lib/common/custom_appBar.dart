@@ -3,13 +3,14 @@ import 'package:aninal_plant/utills/text_style.dart';
 import 'package:flutter/material.dart';
 
 class CustomAppBar extends StatelessWidget {
-  const CustomAppBar({Key? key}) : super(key: key);
+  final double? opacity;
+  const CustomAppBar({super.key, this.opacity});
 
   @override
   Widget build(BuildContext context) {
     return SafeArea(
       child: Opacity(
-        opacity: 0.8,
+        opacity: opacity!,
         child: Container(
             padding: const EdgeInsets.only(top: 10, right: 16, left: 16),
             child: Row(

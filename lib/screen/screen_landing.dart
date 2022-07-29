@@ -22,7 +22,9 @@ class ScreenLanding extends StatelessWidget {
         ),
         Column(
           children: [
-            const CustomAppBar(),
+            const CustomAppBar(
+              opacity: 0.8,
+            ),
             const Spacer(),
             Padding(
               padding: const EdgeInsets.only(
