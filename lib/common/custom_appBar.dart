@@ -30,10 +30,16 @@ class CustomAppBar extends StatelessWidget {
                     ]
                     )),
                 const Spacer(),
-                const Icon(
-                  Icons.menu,
-                  color: Colors.white,
-                )
+                 PopupMenuButton(
+                   shape: RoundedRectangleBorder(
+                     borderRadius: BorderRadius.circular(10)
+                   ),
+                   itemBuilder: (context)=>[
+                   PopupMenuItem(child: Text('About',))
+                 ],
+                 icon: Icon(Icons.menu,color: Colors.white,),
+                 color: Colors.white,
+                 )
               ],
             )),
       ),

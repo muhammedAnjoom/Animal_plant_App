@@ -1,16 +1,23 @@
-# aninal_plant
+# Flutter Animal Plant UI Desgin
 
-A new Flutter project.
+A animal plant app fro Android.Written in Flutter.This app is static. I mean, This is a UI design. No backend.
 
-## Getting Started
+## ScreenShots
 
-This project is a starting point for a Flutter application.
+<table>
+    <tr>
+        <td><img src="assets/image1.png" width="300" /></td>
+        <td><img src="assets/image2.png" width="300" /></td>
+        <td><img src="assets/image3.png" width="300" /></td>
+    </tr>
+</table>
 
-A few resources to get you started if this is your first Flutter project:
+## Android Application Package
+Install APK [Click](https://muhammedanjoom.github.io/)
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## Building
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+-Install Flutter
+- `flutter pub get`
+- `flutter run`
+
