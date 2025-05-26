@@ -1,23 +1,91 @@
-# Flutter Animal Plant UI Desgin
+# Animal Plant App 🦁 🌿
 
-A animal plant app fro Android.Written in Flutter.This app is static. I mean, This is a UI design. No backend.
+A beautiful Flutter application showcasing animals and plants with a modern, elegant UI design. The app features a subscription-based model with different pricing plans and a seamless user experience.
 
-## ScreenShots
+## Features
 
-<table>
-    <tr>
-        <td><img src="assets/image1.png" width="300" /></td>
-        <td><img src="assets/image2.png" width="300" /></td>
-        <td><img src="assets/image3.png" width="300" /></td>
-    </tr>
-</table>
+- 📱 Modern and elegant UI design
+- 🎯 Landing page with captivating animal imagery
+- 💰 Multiple subscription plans
+  - Weekly plan
+  - 3-week plan
+  - 6-week plan
+  - Monthly plan
+- 🏠 Dashboard with curated content
+- 🎨 Custom fonts (Ubuntu) integration
+- 📸 Rich media assets
 
-## Android Application Package
-Install APK [Click](https://drive.google.com/file/d/1wkKF5Cjk0jTL3ZkM8cdRiA-RPpwl43W7/view?usp=sharing)
+## Screenshots
 
-## Building
+The app includes several key screens:
 
--Install Flutter
-- `flutter pub get`
-- `flutter run`
+1. **Landing Screen** - Features a stunning elephant background with welcome message
+2. **Subscription Screen** - Displays various subscription plans with pricing
+3. **Dashboard** - Shows related content and animal categories
+
+## Tech Stack
+
+- Flutter SDK (>=2.18.0-241.0.dev <3.0.0)
+- Dart
+- Material Design
+
+## Dependencies
+
+- `cupertino_icons: ^1.0.2`
+- `flutter_lints: ^2.0.0` (dev dependency)
+
+## Project Structure
+
+```
+lib/
+├── common/
+│   ├── custom_appBar.dart
+│   ├── neivigation_button.dart
+│   └── subscription_container.dart
+├── screen/
+│   ├── screen_choosPlan.dart
+│   ├── screen_dashboard.dart
+│   └── screen_landing.dart
+├── utills/
+│   ├── Strings.dart
+│   └── text_style.dart
+└── main.dart
+```
+
+## Getting Started
+
+1. **Prerequisites**
+   - Flutter SDK
+   - Android Studio/VS Code
+   - Android Emulator/iOS Simulator
+
+2. **Installation**
+   ```bash
+   # Clone the repository
+   git clone [repository-url]
+
+   # Navigate to project directory
+   cd Animal_plant_App
+
+   # Install dependencies
+   flutter pub get
+
+   # Run the app
+   flutter run
+   ```
+
+## Assets
+
+The project includes various assets:
+- Animal images (elephant, tiger, etc.)
+- Subscription plan images
+- Ubuntu font family
+
+## Contributing
+
+Feel free to submit issues and enhancement requests.
+
+## License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
 
